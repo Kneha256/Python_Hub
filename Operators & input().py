@@ -1,38 +1,48 @@
 #operators
 #1)arithmetic operators(+,-,*,/,//,%.**)-use in numerical operations
-a,b=2,3
+a,b=4,3
+
 print(a+b)
-
-a,b=2,3
 print(a-b)
-
-a,b=2,3
+print(a**b)
+print(a/b)
+print(a%b)
+print(a//b)
 print(a**b)
 
-a,b=13,6
-print(13//6)
-
 #2)Assignment operator(=,-=,+=,*=./=,//=,**=)-to assign a value
+
 a=2
+a+=10
 print(a)
-a+=2
+a-=1
+print(a)
+a//=2
+print(a)
+a/=2
+print(a)
+a*=4
+print(a)
+a**=4
 print(a)
 
 #3)Relational/comparison operator(==,!=,>,<,>=,<=) - give ans. in True or False
 a,b=4,3
+
 print(a>b)
-
-a,b=4,3
+print(a<b)
 print(a!=b)
-
-i=6
-print(i==5)
+print(a==b)
+print(a>=b)
+print(a<=b)
 
 #4)Logical operators(not,and,or)
 a=True
 b=False
 print(a and b)
 print(a or b)
+print(not(a<b))
+print(not a)
 
 #5)identity operators(is,is not)=answer in true or false
 a=True
@@ -55,16 +65,7 @@ print(0|1)
 print(0|3)
 print(3^4)
 
-#input() statement is used to take inpute values
-#string input - words, setences
-name = input("name : ")
-
-#float input - decimal value
-price = float(input("price : "))
-
-#int input - number
+#input()
+name=input("name : ")
 age=int(input("age : "))
-
-name = input("name : ")
-print("my name is :",name,"and i'm",age,"years old")
-
+price=float(input("price : "))
