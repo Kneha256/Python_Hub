@@ -72,5 +72,9 @@ a,b=5,-2
 print(a%b)
 
 #comments-won't be printed (#)
+   #Or for multiline comments
+"""this
+is my
+first book"""
 
 
