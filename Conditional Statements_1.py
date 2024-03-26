@@ -19,3 +19,11 @@ elif(Marks<=80 and Marks>=70):
     print("Grade : C")
 else:
     print("Grade : D")
+
+
+#if-elif-else
+food=input("food : ")
+if(food=="cake" or food=="jalebi"):
+    print("sweet")
+else:
+    print("no sweets")
