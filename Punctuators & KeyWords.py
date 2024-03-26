@@ -6,7 +6,7 @@
 #Can not be use as a identifier or variables
 #case Sensitive(upper case and lower case)
 
-#printsum
+#print_sum
 a = 2
 b = 3
 sum = a + b
