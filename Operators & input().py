@@ -1,5 +1,5 @@
 #operators
-#1)arithmetic operators(+,-,*,/,//,%.**)-use in numerical operations
+#1)arithmetic operators(+,-,*,/,//,%.**) - use in numerical operations
 a,b=4,3
 
 print(a+b)
