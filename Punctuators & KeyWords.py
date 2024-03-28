@@ -4,7 +4,7 @@
 #3)Operators
 #4)Keywords-reserved values
 #Can not be use as a identifier or variables
-#case Sensitive(upper case and lower case)
+#Python is case Sensitive(upper case and lower case)
 
 #print_sum
 a = 2
