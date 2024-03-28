@@ -1,4 +1,4 @@
-#if-elif-else or if or if-elif(Syntax)
+#if-elif-else or if or if-elif (Syntax)
 Light=input("Light : ")
 if(Light == "red"):
     print("Stop")
