@@ -71,6 +71,8 @@ st="I am a intelligent person"
 print(st.endswith("son")) #Ture
 print(st.endswith("per")) #False
 
+
+
 #str.capitalize() - it gives first character of a string in capital letter
 #to give the output it creat a new string and there is no change in original string
 #it will work once only
@@ -84,6 +86,44 @@ str1="i am a intelligent person"
 str1=str1.capitalize() 
 print(str1) #I am a intelligent person
 
+
+
+
+#<var>.replace(old, new) - use to replace a value with new value
+str1="i am a intelligent person"
+print(str1.replace("n", "m")) #i am a imtelligemt persom
+
+str2="I am learning python from apna college"
+print(str2.replace("o", "e")) #I am learning pythen frem apna cellege
+
+str2="I am learning python from apna_college"
+print(str2.replace("apna_college", "Youtube")) #I am learning python from Youtube
+
+str2="I am learning python from apna college"
+print(str2.replace("apna college", "Youtube")) #I am learning python from Youtube
+
+
+
+#<var>.find(word) - to search for this word in the string
+#note - if exist then it returns the 1st index no of the word from the starting of the string
+str1="I am learning python from apna college"
+print(str1.find("o"))  #18(counting starts with 0 always)      
+
+str1="I am learning from python from apna college"
+print(str1.find("from")) #14
+
+str1="I am learning from python from apna college"
+print(str1.find("Q")) #-1(return -1 for non existing word or character)
+
+
+
+
+#<var>.count - returns the no of occurance of a word or letter
+str1="I am learning from python from apna college"
+print(str1.count("from")) #2
+
+str1="I am learning from python from apna college"
+print(str1.count("o")) #4
 
 
 
