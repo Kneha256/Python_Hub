@@ -29,6 +29,8 @@ print(final_str) #Apna College
 print(len(final_str)) #12
 
 
+
+
 #indexing - when we declare a string then a specific no is alot to each char and indexing start with 0 always.
 #use to access charachters
 #<varname>[index no]
@@ -41,6 +43,9 @@ print(str1[3]) #a
 str1="Apna_college"
 ch= str1[4] #_
 print(ch)
+
+
+
 
 #Slicing - to access part of a string 
 #str[start_index:ending_idx] ending index is not included
@@ -64,6 +69,8 @@ str1="Apple"
 print(str1[-3:-1]) #pl
 print(str1[-3:]) #ple
 print(str1[-5:]) #Apple
+
+
 
 #String Function
 #str.endswith - return Ture if string ends with substring
