@@ -27,3 +27,6 @@ if(food=="cake" or food=="jalebi"):
     print("sweet")
 else:
     print("no sweets")
+
+
+
