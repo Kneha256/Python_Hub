@@ -3,8 +3,8 @@
 #each set must be unique inside the set and immutable(can not be changed).
 #list and dictionary can not be store inside set because they are mutable.
 #we can use tupble, string, float , integer and boolean values only.
-collection={2,3,4,6}
-print(collection)   #{2, 3, 4, 6}
+collection={2,3,4,6,8}
+print(collection)   #{2, 3, 4, 6,8}
 print(type(collection))   #<class 'set'>
 
 #all type of values can be taken.
