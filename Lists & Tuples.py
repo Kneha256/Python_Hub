@@ -1,6 +1,6 @@
-#LISTs-it is a  uilt in data type that stroes set of values.
+#LISTs-it is a built-in data type that stroes set of values.
 #in list indexing start with 0 always.
-#it can store elements of different data types 
+#it can store elements of different data types. 
 #but in an array only one type of data can be store.
 
 marks=[12.4, 15.4, 13.2, 6.9, 18.5]
@@ -67,7 +67,7 @@ print(list.sort(reverse=True)) #none because it is making change in original val
 print(list) #[3,2,1]
 
 list = ["banana", "cake", "apple" ,"rose"]
-list.sort(reverse=True) #none
+list.sort(reverse=True)
 print(list)  #['rose', 'cake', 'banana', 'apple']
 
 
@@ -93,7 +93,7 @@ print(list1) #[2, 3, 5, 1]
 #6)remove method - remove first occurance of element
 list=[1,4,6,4]
 list.remove(4)
-print(list) #[1, 6, 2]
+print(list) #[1, 6, 4]
 
 list = ["banana", "rose", "apple" ,"rose"]
 list.remove("rose")
@@ -108,3 +108,41 @@ list = ["banana", "jasmine", "apple" ,"rose"]
 list.pop(3)
 print(list) #['banana', 'jasmine', 'apple']
 
+
+                           #TUPLE
+
+#Tuple is a built-in data type which is immutable 
+tup = (2,4,7,5,9)
+print(type(tup)) #<class 'tuple'>
+print(tup[0]) #2
+tup[0]=10 #not allowed
+
+
+#to create a single value tuple
+tup1=(4,)
+print(tup1) 
+#for multiple values
+tup1=(3,6,64,93,)
+       #or
+tup1=(3,6,64,93) #same
+
+#slicing in tuple
+tup1 = (2,4,7,5,9)
+print(tup1[0:3])  #(2, 4, 7) last index is included
+print(tup1[1:]) #(4, 7, 5, 9)
+print(tup1[:4]) #(2, 4, 7, 5)
+
+#negative sslicing
+print(tup1[-3:-1]) #(7, 5)
+print(tup1[-4:]) #(4, 7, 5, 9)
+
+
+#tuples Method
+#1)index method - return index of first occurance
+#tup_name(el)
+tup1 = (2,4,7,5,7)
+print(tup1.index(7)) #2
+
+#2)count method - return counts of total occurance
+tup1 = (2,4,7,5,7)
+print(tup1.count(7)) #2
