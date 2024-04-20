@@ -1,6 +1,6 @@
 #WAF to print length of a list(list is the parameter)
 list=["neha",7,2003,"python"]
-def List_Length(list=[]): 
+def List_Length(list): 
        print(len(list))
 List_Length(list) #4
 
