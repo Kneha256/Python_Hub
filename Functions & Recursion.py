@@ -65,9 +65,14 @@ List_items(Item = ["salt","oil","sugar","wheat","rice"]) #['salt', 'oil', 'sugar
 
 
                          #RECURSION
-#recursion-
+#recursion-a a function call itself repeatedly.
+def show(n):
+       if(n==0): #basecase
+           return
+       print(n)
+       show(n-1)
 
-
+show(5)
 
 
 
