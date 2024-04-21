@@ -73,8 +73,8 @@ def show(n):
        show(n-1)
 
 show(5)
-
-
+#WRF to caluculate the sum of the first n natural n number.
+#WRF to print all elements in a list.
 
 
 
