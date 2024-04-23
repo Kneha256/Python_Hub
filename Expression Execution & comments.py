@@ -2,7 +2,7 @@
 #Repeat the string value as the numeric value is.
 a,b = 4,6
 c = "@"
-print(a*b*c) #@@@@@@@@@@@@@@@@@@@@@@@@
+print(a*b*c)  #@@@@@@@@@@@@@@@@@@@@@@@@
 
 a,b = 2,2
 c = "Hello"
