@@ -51,3 +51,10 @@ def Even_Odd(n):
 
 Even_Odd(n)
 
+n=int(input("enter a num (1:100) : "))
+def prime_num(n):
+    if (n%n==0):
+        print("prime")
+    else:
+        print("non prime")
+prime_num(n)
