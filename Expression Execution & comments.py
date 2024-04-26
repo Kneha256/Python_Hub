@@ -73,8 +73,8 @@ print(a%b)
 
 #comments-won't be printed (#)
    #Or for multiline comments
-'''this
+"""this
 is my
-first book'''
+first book"""
 
 
