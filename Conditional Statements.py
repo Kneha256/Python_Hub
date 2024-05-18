@@ -1,4 +1,4 @@
-#if-elif-else or if or if-elif(Syntax)
+#if-elif-else or if or if-elif (Syntax)
 #"elif" condition will only execute if "if" condition is false.
 #there can be number of if and elif statement but only one else statement.
 #indentation-proper spacing
