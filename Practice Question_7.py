@@ -58,3 +58,13 @@ def prime_num(n):
     else:
         print("non prime")
 prime_num(n)
+
+
+
+list=[1,2,3,2,1]
+lis1=list.copy()
+lis1.reverse()
+if(list==lis1):
+    print("palindrome")
+else:
+    print("not a palindrome")
