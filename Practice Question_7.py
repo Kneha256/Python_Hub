@@ -68,3 +68,7 @@ if(list==lis1):
     print("palindrome")
 else:
     print("not a palindrome")
+
+
+tup=("c","d","a","a","b","b","a")
+print(tup.count("a"))
