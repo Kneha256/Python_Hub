@@ -72,3 +72,9 @@ else:
 
 tup=("c","d","a","a","b","b","a")
 print(tup.count("a"))
+
+
+tup=("c","d","a","a","b","b","a")
+a=list(tup)
+a.sort()
+print(a)
