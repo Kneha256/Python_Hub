@@ -14,11 +14,6 @@ else:
     print("Broken")
 
 
-
-
-
-
-
 marks=int(input("Enter your marks : "))
 if(marks >= 90):
      print("Grade : A")
@@ -87,6 +82,7 @@ if(age>=18):
 else:
     print("cannot Drive")
     
+
 
 
 
