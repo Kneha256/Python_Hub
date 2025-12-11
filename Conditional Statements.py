@@ -24,7 +24,10 @@ if(marks >= 70 and marks <80):
 else:
     print("Grade : D")
 
+
      #or
+
+
 
 Marks=int(input("Enter your Marks : "))
 if(Marks>=90):
@@ -82,6 +85,7 @@ if(age>=18):
 else:
     print("cannot Drive")
     
+
 
 
 
