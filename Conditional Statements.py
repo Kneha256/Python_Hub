@@ -3,6 +3,8 @@
 #there can be number of if and elif statement but only one else statement.
 #indentation-proper spacing
 
+
+
 Light=input("Light : ")
 if(Light == "red"):
     print("Stop")
@@ -85,6 +87,7 @@ if(age>=18):
 else:
     print("cannot Drive")
     
+
 
 
 
